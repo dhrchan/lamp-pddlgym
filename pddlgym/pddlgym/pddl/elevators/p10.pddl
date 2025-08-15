@@ -1,0 +1,6 @@
+(define (problem elev_3_8_2_6_4968)
+  (:domain elevators)
+  (:objects f1 - floor f2 - floor f3 - floor p1 - pos p2 - pos p3 - pos p4 - pos p5 - pos p6 - pos p7 - pos p8 - pos e1 - elevator e2 - elevator c1 - coin c2 - coin c3 - coin c4 - coin c5 - coin c6 - coin )
+  (:init (basefloor f1) (basepos p1) (moveleft) (moveleftgate) (moveright) (moverightgate) (goup e1) (godown e1) (stepin e1) (stepout e1) (goup e2) (godown e2) (stepin e2) (stepout e2) (collect c1) (collect c2) (collect c3) (collect c4) (collect c5) (collect c6) (at f1 p1) (dec_f f2 f1) (dec_f f3 f2) (dec_p p2 p1) (dec_p p3 p2) (dec_p p4 p3) (dec_p p5 p4) (dec_p p6 p5) (dec_p p7 p6) (dec_p p8 p7) (shaft e1 p3) (in e1 f3) (shaft e2 p7) (in e2 f2) (coin-at c1 f1 p7) (coin-at c2 f2 p3) (coin-at c3 f2 p1) (coin-at c4 f3 p8) (coin-at c5 f3 p1) (coin-at c6 f3 p3) (gate f2 p2) (gate f2 p3) (gate f3 p4))
+  (:goal (and (have c1) (have c2) (have c3) (have c4) (have c5) (have c6)))
+)

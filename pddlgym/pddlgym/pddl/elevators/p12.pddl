@@ -1,0 +1,6 @@
+(define (problem elev_3_12_3_9_29838)
+  (:domain elevators)
+  (:objects f1 - floor f2 - floor f3 - floor p1 - pos p2 - pos p3 - pos p4 - pos p5 - pos p6 - pos p7 - pos p8 - pos p9 - pos p10 - pos p11 - pos p12 - pos e1 - elevator e2 - elevator e3 - elevator c1 - coin c2 - coin c3 - coin c4 - coin c5 - coin c6 - coin c7 - coin c8 - coin c9 - coin )
+  (:init (basefloor f1) (basepos p1) (moveleft) (moveleftgate) (moveright) (moverightgate) (goup e1) (godown e1) (stepin e1) (stepout e1) (goup e2) (godown e2) (stepin e2) (stepout e2) (goup e3) (godown e3) (stepin e3) (stepout e3) (collect c1) (collect c2) (collect c3) (collect c4) (collect c5) (collect c6) (collect c7) (collect c8) (collect c9) (at f1 p1) (dec_f f2 f1) (dec_f f3 f2) (dec_p p2 p1) (dec_p p3 p2) (dec_p p4 p3) (dec_p p5 p4) (dec_p p6 p5) (dec_p p7 p6) (dec_p p8 p7) (dec_p p9 p8) (dec_p p10 p9) (dec_p p11 p10) (dec_p p12 p11) (shaft e1 p2) (in e1 f3) (shaft e2 p2) (in e2 f3) (shaft e3 p8) (in e3 f2) (coin-at c1 f2 p10) (coin-at c2 f2 p4) (coin-at c3 f2 p3) (coin-at c4 f3 p4) (coin-at c5 f3 p2) (coin-at c6 f2 p9) (coin-at c7 f1 p1) (coin-at c8 f1 p1) (coin-at c9 f2 p9) (gate f2 p8) (gate f3 p6) (gate f3 p9))
+  (:goal (and (have c1) (have c2) (have c3) (have c4) (have c5) (have c6) (have c7) (have c8) (have c9)))
+)
